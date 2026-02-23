@@ -1,0 +1,190 @@
+.headstyle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 92px;
+    color: #333333;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.darkmode {
+    color: #ffffff;
+    /* background-color: black; */
+    background-image: url(darkmode_wallpaper.jpg);
+}
+
+.mainstyle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #3f3b3b;
+    line-height: 1.4;
+    margin: 8px 0;
+    text-align: center;
+    
+}
+
+.menubartop     {
+	border: 3px outset  rgb(197, 197, 212);
+    background-color: rgb(197, 197, 212);
+    text-align: left;
+    border-radius: 5px;
+    display: flex;
+    object-fit: contain;
+    
+}
+
+.menubartop_buttonstyle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 85%);
+    
+    line-height: 1.6;
+    margin: 8px 0;
+    border-radius: 4px;
+    margin: 5px;
+    border-style: none;
+
+}
+
+.menubartop_buttonstyle:hover {
+    background-color: hsl(0, 0%, 75%);
+}
+
+.coolhr {
+    border-radius: 15px;
+    color: rgb(155, 155, 163);
+    display: flex;
+
+}
+
+.imgmenutopbar_logo {
+    border-radius: 4px;
+    height: 34px;
+    width: 33px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.hr_under_line {
+    border-radius: 15px;
+    color: rgb(155, 155, 163);
+    display: flex;
+    margin-top: -30px;
+
+}
+
+.hr_under_line_News {
+    border-radius: 15px;
+    color: rgb(155, 155, 163);
+    display: flex;
+    margin-top: -17px;
+
+
+}
+.hr_under_line_News-NR2 {
+    border-radius: 15px;
+    color: rgb(155, 155, 163);
+    display: flex;
+    margin-top: -10px;
+
+}
+
+.status_red {
+    color: red;
+    
+}
+
+.status_yellow {
+    color: yellow;
+}
+
+.status_green {
+    color: green;
+}
+
+span {
+    margin: 0 auto;
+}
+
+code {
+    background-color: rgb(223, 223, 223);
+    border-radius: 10%;
+    padding: 3px;
+}
+
+.Home_left_small_news_tab {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.6;
+    margin: 8px 0;
+    text-align: left;
+    border: 3px outset #929292;
+    align-items: left;
+    align-self: left;
+}
+
+body {
+    background-image: url(wallpaper4.jpg);
+    background-size: 100%;
+    backdrop-filter: blur(5px);
+    background-blend-mode:overlay;
+    background-color: rgba(0, 0, 0, -0.71);
+    /* background-position: 100px 20px ; */
+    
+}
+
+fieldset {
+     background-color: #b4b2b2;
+}
+
+legend {
+    /* background-color: #b4b2b2; */
+    align-items: center;
+}
+
+.under_home_headstyle {
+    /* background-color: rgb(223, 223, 223); */
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10%;
+    padding: 1px;
+}
+
+
+
+
+.switch {
+ --false: #ffffff;
+ --true: #838383;
+}
+
+input[type=checkbox] {
+ appearance: none;
+ height: 2rem;
+ width: 3.5rem;
+ background-color: hsl(0, 0%, 85%);
+ position: relative;
+ border-radius: .2em;
+ cursor: pointer;
+ margin-top: 1px;
+}
+
+input[type=checkbox]::before {
+ content: '';
+ display: block;
+ height: 1.9em;
+ width: 1.9em;
+ transform: translate(-50%, -50%);
+ position: absolute;
+ top: 50%;
+ left: calc(1.9em/2 + .3em);
+ background-color: var(--false);
+ border-radius: .2em;
+ transition: .3s ease;
+}
+
+input[type=checkbox]:checked::before {
+ background-color: var(--true);
+ left: calc(100% - (1.9em/2 + .3em));
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue-inft: News</title>
+    <link rel="stylesheet" href="style.css"> <!-- this is for the fonts and icon settings -->
+    <script src="script.js"></script>
+    <link rel="icon" href="favicon.png"> <!-- this is for the icon next to the title -->
+</head>
+<body>
+     <div class="menubartop" id="menubar" > <!-- this is the menu on the most top part of the site -->
+        <img src="favicon.png" class="imgmenutopbar_logo" > <!-- the logo on the menu bar -->
+        <a href="index.html">
+            <button id="homebutton" class="menubartop_buttonstyle" > Home </button> <!-- the home button (has no use now btw) --></a>
+        <a href="News.html">
+             <button id="newsbutton" class="menubartop_buttonstyle" > News </button>
+        </a>
+        <a href="Account.html">
+            <button id="accountbutton" class="menubartop_buttonstyle" > Account </button> <!-- also has no use now btw-->
+        </a>
+        <button onclick="darkmode()" class="menubartop_buttonstyle" > Toggle darkmode</button>
+</div>
+<div class="content" > 
+    <h1 align="center" class="headstyle" > 
+        Insights
+    </h1>
+    <hr class="hr_under_line_News" width="20%" >
+    <p align="center" class="mainstyle" > there are no new insights. but that is because im too to bored to do so / i have nothing new.  </p>
+    <hr width="44%" class="hr_under_line_News-NR2" >
+
+   <fieldset>
+    <legend class="mainstyle" > The UAC project. </legend>
+    <p class="mainstyle" >
+        The UAC project is a project for windows to make an <code>U</code>niversal <code>A</code>dministrative <code>C</code>ommand prompt simmilar to <code> cmd.exe</code> and is written in batch(windows batch file).
+        <br>
+         It now only features an input screen but does have a function to listen if UAC is run as Administrator. there are some goals i want to achieve for this time being:
+         <br>
+<details class="mainstyle" align="center" >
+    <summary align="center" >
+        goals
+    </summary>
+    ▪️Plugins support
+    <br>
+    ▪️actual usefull commands ex. disk configuring and registry settings.
+</details>
+    </p>
+<img width="600" src="picture-news.png" alt="UAC start page">
+    <code> status:unfinished ❌ </code>
+
+    <h3 class="mainstyle" >
+        bugs:
+        <br>
+    </h3>
+    <p class="mainstyle" >
+        The bugs that i come across are all visual, they dont inpact how UAC works. But they can impact how people will intereact with UAC.
+        <br>
+        One bug im comming across is that the font and font size change when UAC is run in <code> cmd.exe</code> or <code> conhost.exe</code> thats why i reconmend using windows terminal
+        <br>
+        <code> (wt.exe)</code> for using UAC. and if you run it as Administrator via the buildt in <code> admin</code> command it will also restart UAC in Windows Terminal as Administrator.
+    </p>
+   </fieldset>
+</div>
+
+
+</body>
+</html>
